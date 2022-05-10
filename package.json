@@ -1,0 +1,23 @@
+{
+  "name": "starter-wordpress-theme",
+  "version": "1.0.0",
+  "description": "Learning structure example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass -w sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cris-brin/starter-wordpress-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cris-brin/starter-wordpress-theme/issues"
+  },
+  "homepage": "https://github.com/cris-brin/starter-wordpress-theme#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
