@@ -4,13 +4,13 @@ const sourcemaps = require('gulp-sourcemaps');
 const watch = require('gulp-watch');
 
 gulp.task('sass-compile', function () {
-    return gulp.src('./sass/**/*.scss')
+    return gulp.src('./assets/sass/**/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(sourcemaps.write('./'))
-        .pipe(gulp.dest('./css/'));
+        .pipe(gulp.dest('./assets/css/'));
 });
 
 gulp.task('watch', function () {
-    gulp.watch('./sass/**/*.scss', gulp.series('sass-compile'));
+    gulp.watch('./assets/sass/**/*.scss', gulp.series('sass-compile'));
 });
