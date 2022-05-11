@@ -4,7 +4,7 @@
   "description": "Learning structure example",
   "main": "index.js",
   "scripts": {
-    "dev": "node-sass -w sass -o css"
+    "dev": "node-sass -o css sass"
   },
   "repository": {
     "type": "git",

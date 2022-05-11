@@ -15,16 +15,20 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .text {
   color: black;
   font-size: 19px;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .block {
   background-color: wheat;
   width: 100px;
-  height: 100px; }
+  height: 100px;
+}
 
 .block_big {
   height: 200px;
-  width: 200px; }
+  width: 200px;
+}
 
 body {
-  background: #fff; }
+  background: #fff;
+}
