@@ -4,7 +4,7 @@
   "description": "Learning structure example",
   "main": "index.js",
   "scripts": {
-    "dev": "node-sass -o css sass"
+    "dev": "gulp watch"
   },
   "repository": {
     "type": "git",

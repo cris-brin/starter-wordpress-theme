@@ -25,6 +25,8 @@
 @import "vendors/_bootstrap"; // Vendors
 @import "vendors/_jquery-ui";
 
+$red: blue;
+
 .block {
     background-color: wheat;
     width: 100px;
@@ -38,8 +40,9 @@
 }
 
 body {
-    display: block;
-    background: red;
-    color: green;
+    display: flex;
+    justify-content: center;
+    background: $red;
+    color: $red;
     appearance: list;
 }
