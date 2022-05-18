@@ -153,6 +153,7 @@ body {
   display: block;
   background: red;
   color: green;
+  -webkit-appearance: list;
+  -moz-appearance: list;
   appearance: list;
 }
-/*# sourceMappingURL=style.css.map */
