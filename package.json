@@ -4,7 +4,7 @@
   "description": "Learning structure example",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp watch"
+    "dev": "gulp gulp_watch"
   },
   "repository": {
     "type": "git",
@@ -18,13 +18,17 @@
   },
   "homepage": "https://github.com/cris-brin/starter-wordpress-theme#readme",
   "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.9",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
     "gulp-watch": "^5.0.1",
     "node-sass": "^7.0.1"
-  },
-  "dependencies": {
-    "gulp": "^4.0.2"
   }
 }
